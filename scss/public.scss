@@ -1,0 +1,99 @@
+@import "bootstrap/bootstrap";
+@import "Ginkgo";
+
+
+html {
+  font-size: 13px;
+}
+
+body {
+  position: relative;
+
+  display: inline-block;
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+  color: rgba(90, 90, 90, 1.00);
+
+  font-weight: 400;
+  text-align: center;
+  font-family: 'Roboto', 'Noto Sans TC', "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
+
+  text-size-adjust: none;
+  -webkit-text-size-adjust:none;
+}
+
+.mob-open {
+  @include range-width(0, 450px) {
+    display: inline-block !important;
+  }
+}
+
+.mob-close {
+  @include range-width(0, 450px) {
+    display: none !important;
+  }
+}
+
+.pad-close {
+  @include range-width(0, 790px) {
+    display: none !important;
+  }
+}
+
+header {
+  display: inline-block;
+  width: 100%;
+}
+
+footer {
+  display: inline-block;
+  width: 100%;
+}
+
+.bigBoxs {
+  display: inline-block;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.box980 {
+  display: inline-block;
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+// other
+  // header
+.h60 {
+  height: 60px;
+
+  @include range-width(0, 450px) {
+    height: auto;
+  }
+}
+
+  // footer
+.h130 {
+  height: 130px;
+
+  @include range-width(0, 450px) {
+    height: 90px;
+  }
+}
+
+.logo-h {
+  display: inline-block;
+  max-width: 305px;
+  width: 100%;
+}
+
+.logo-f {
+  display: inline-block;
+  max-width: 495px;
+  width: 100%;
+}
+
