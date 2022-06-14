@@ -3044,6 +3044,10 @@ footer { display: inline-block; width: 100%; }
 
 .box980 { display: inline-block; width: 100%; max-width: 980px; margin: 0 auto; }
 
+.box1000 { display: inline-block; width: 100%; max-width: 1000px; margin: 0 auto; }
+
+.wb5 { display: inline-block; width: calc(100% / 5); }
+
 .h60 { height: 60px; }
 @media screen and (max-width: 449px) and (min-width: 0) { .h60 { height: auto; } }
 
@@ -3053,3 +3057,11 @@ footer { display: inline-block; width: 100%; }
 .logo-h { display: inline-block; max-width: 305px; width: 100%; }
 
 .logo-f { display: inline-block; max-width: 495px; width: 100%; }
+
+.tagtext { display: inline-block; text-align: center; text-decoration: none; }
+.tagtext:hover { color: #E9A12E !important; }
+.tagtext:hover:after { color: #747474; }
+.tagtext:after { display: inline-block; content: '/'; margin: 0 5px; }
+
+.nav-pills .nav-link { font-size: 1.25rem !important; }
+.nav-pills .nav-link.active { background-color: #E9A12E !important; }

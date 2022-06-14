@@ -66,6 +66,18 @@ footer {
   margin: 0 auto;
 }
 
+.box1000 {
+  display: inline-block;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.wb5 {
+  display: inline-block;
+  width: calc(100% / 5);
+}
+
 // other
   // header
 .h60 {
@@ -96,4 +108,40 @@ footer {
   max-width: 495px;
   width: 100%;
 }
+
+// text
+.tagtext {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+
+  &:hover {
+    color: #E9A12E !important;
+
+    &:after {
+      color: #747474;
+    }
+  }
+
+  &:after {
+    display: inline-block;
+    content: '/';
+    margin: 0 5px;
+  }
+}
+
+// boot
+.nav-pills {
+  .nav-link {
+    font-size: 1.25rem !important;
+    &.active {
+      background-color: #E9A12E !important;
+    }
+  }
+}
+
+
+
+
+
 
