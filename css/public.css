@@ -3048,6 +3048,13 @@ footer { display: inline-block; width: 100%; }
 
 .wb5 { display: inline-block; width: calc(100% / 5); }
 
+.bg-grey { background-color: #eeeeee; }
+
+.new-a .newBoxs { display: inline-block; width: 100%; background-color: white; height: 270px; padding: 30px; border-top: 5px solid #1B5494; }
+.new-a .news-title { display: inline-block; font-size: 1.6rem; color: black; font-weight: 500; }
+.new-a:hover .newBoxs { border-top: 5px solid #e9a12e; }
+.new-a:hover .news-title { color: #e9a12e; }
+
 .h60 { height: 60px; }
 @media screen and (max-width: 449px) and (min-width: 0) { .h60 { height: auto; } }
 

@@ -78,6 +78,38 @@ footer {
   width: calc(100% / 5);
 }
 
+.bg-grey {
+  background-color: #eeeeee;
+}
+
+.new-a {
+  .newBoxs {
+    display: inline-block;
+    width: 100%;
+    background-color: white;
+    height: 270px;
+    padding: 30px;
+    border-top: 5px solid #1B5494;
+  }
+
+  .news-title {
+    display: inline-block;
+    font-size: 1.6rem;
+    color: black;
+    font-weight: 500;
+  }
+
+  &:hover {
+    .newBoxs {
+      border-top: 5px solid #e9a12e;
+    }
+
+    .news-title {
+      color: #e9a12e;
+    }
+  }
+}
+
 // other
   // header
 .h60 {
