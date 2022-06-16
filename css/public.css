@@ -3058,6 +3058,9 @@ footer { display: inline-block; width: 100%; }
 .h60 { height: 60px; }
 @media screen and (max-width: 449px) and (min-width: 0) { .h60 { height: auto; } }
 
+.event-link { display: inline-block; width: 100%; font-size: 1.4rem; font-weight: 500; color: #233E77; text-decoration: none; }
+.event-link:hover { color: #E9A12E; }
+
 .h130 { height: 130px; }
 @media screen and (max-width: 449px) and (min-width: 0) { .h130 { height: 90px; } }
 
@@ -3072,3 +3075,5 @@ footer { display: inline-block; width: 100%; }
 
 .nav-pills .nav-link { font-size: 1.25rem !important; }
 .nav-pills .nav-link.active { background-color: #E9A12E !important; }
+
+.card { border: 0 !important; border-radius: 0 !important; }

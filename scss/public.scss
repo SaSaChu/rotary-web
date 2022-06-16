@@ -120,6 +120,19 @@ footer {
   }
 }
 
+.event-link {
+  display: inline-block;
+  width: 100%;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #233E77;
+  text-decoration: none;
+
+  &:hover {
+    color: #E9A12E;
+  }
+}
+
   // footer
 .h130 {
   height: 130px;
@@ -171,6 +184,18 @@ footer {
     }
   }
 }
+
+.card {
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+
+// .card-img-top {
+//     border-top-left-radius: calc(0.25rem - 1px);
+//     border-top-right-radius: calc(0.25rem - 1px);
+// }
+
+
 
 
 
