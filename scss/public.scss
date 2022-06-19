@@ -25,6 +25,7 @@ body {
 }
 
 .mob-open {
+  display: none !important;
   @include range-width(0, 450px) {
     display: inline-block !important;
   }
@@ -110,6 +111,14 @@ footer {
   }
 }
 
+.in-h {
+  background: linear-gradient(to bottom, #233E77 0%, #233E77 80%, white 80%, white 100%);
+
+  @include range-width(0, 450px) {
+    background: linear-gradient(to bottom, #233E77 0%, #233E77 90%, white 90%, white 100%);
+  }
+}
+
 // other
   // header
 .h60 {
@@ -131,6 +140,10 @@ footer {
   &:hover {
     color: #E9A12E;
   }
+}
+
+.n-unl {
+  text-decoration: none;
 }
 
   // footer
@@ -195,7 +208,11 @@ footer {
 //     border-top-right-radius: calc(0.25rem - 1px);
 // }
 
-
+.nav-link {
+  &.in-w {
+    color: white !important;
+  }
+}
 
 
 
