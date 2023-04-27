@@ -3057,6 +3057,7 @@ footer { display: inline-block; width: 100%; }
 .new-a:hover .news-title { color: #e9a12e; }
 
 .in-h { background: linear-gradient(to bottom, #233e77 0%, #233e77 80%, #ffffff 80%, #ffffff 100%); }
+@media screen and (max-width: 449px) and (min-width: 0) { .in-h { background: linear-gradient(to bottom, #233e77 0%, #233e77 90%, #ffffff 90%, #ffffff 100%); } }
 
 .h60 { height: 60px; }
 @media screen and (max-width: 449px) and (min-width: 0) { .h60 { height: auto; } }
@@ -3083,4 +3084,10 @@ footer { display: inline-block; width: 100%; }
 
 .card { border: 0 !important; border-radius: 0 !important; }
 
+.nav-link { font-size: 1.3rem; }
+@media screen and (max-width: 449px) and (min-width: 0) { .nav-link { font-size: 1rem; } }
 .nav-link.in-w { color: white !important; }
+
+.navbar-menu { color: #E9A12E; }
+
+thead { color: #233e77 !important; }

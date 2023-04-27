@@ -209,13 +209,23 @@ footer {
 // }
 
 .nav-link {
+  font-size: 1.3rem;
+
+  @include range-width(0, 450px) {
+    font-size: 1rem;
+  }
+
   &.in-w {
     color: white !important;
   }
 }
 
+.navbar-menu {
+   color: #E9A12E;
+}
 
 
-
-
+thead {
+  color: #233e77 !important;
+}
 
