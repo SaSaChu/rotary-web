@@ -3070,9 +3070,9 @@ footer { display: inline-block; width: 100%; }
 .h130 { height: 130px; }
 @media screen and (max-width: 449px) and (min-width: 0) { .h130 { height: 90px; } }
 
-.logo-h { display: inline-block; max-width: 305px; width: 100%; }
+.logo-h { display: inline-block; max-width: 115px; width: 100%; }
 
-.logo-f { display: inline-block; max-width: 495px; width: 100%; }
+.logo-f { display: inline-block; max-width: 150px; width: 100%; }
 
 .tagtext { display: inline-block; text-align: center; text-decoration: none; }
 .tagtext:hover { color: #E9A12E !important; }
